@@ -11,7 +11,7 @@
         </h1>
       </div>
       <p class="mt-3 text-base text-gray-300 text-xl p-5 mx-auto max-w-4xl">
-        This is where I post blog posts and writeup on whatever I'm into at the moment.
+        This is where I post blog posts and write-ups on whatever crosses my mind.
       </p>
       </div>
 
