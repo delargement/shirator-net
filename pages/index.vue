@@ -10,8 +10,8 @@
           <span class="block xl:inline text-accent">Shirator</span>
         </h1>
       </div>
-      <p class="mt-3 text-base text-gray-400 text-xl p-5 mx-auto max-w-4xl">
-        I'm a high school student who's devoted to the study of the math and sciences. As a strong proponent of the DIY-ethic and I have a number of CS related projects I've worked on you can find on my github. Currently I'm studying differential geometry and exploring miscellaneous areas of physics. But I have some niche interests and hobbies I hope to document and share here.
+      <p class="mt-3 text-base text-gray-300 text-xl p-5 mx-auto max-w-4xl">
+        This is where I post blog posts and writeup on whatever I'm into at the moment.
       </p>
       </div>
 
@@ -22,7 +22,12 @@
       </h1>
 
       <div class="">
+        <div>
+        <h2 class="text-4xl text-accent text-bold ">Blog</h2>
+          <ul class="list-disc list-inside">
 
+          </ul>
+        </div>
       </div>
 
     </main>

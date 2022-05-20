@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-primary shadow-lg px-2 sm:px-4 py-2.5 ">
+  <nav class="bg-primary shadow-lg px-2 sm:px-4 py-2.5 sticky top-0 z-50 ">
     <div class="container flex flex-wrap justify-between items-center mx-auto  ">
       <a href="https://shirator.net" class="flex items-center">
         <span class="self-center text-xl font-serif whitespace-nowrap text-white1">
@@ -13,12 +13,12 @@
         </span>
       </a>
       <div class="hidden md:block md:w-auto" id="mobile-menu">
-        <ul class="flex flex-col  md:flex-row md:space-x-8 text-sm font-light">
+        <ul class="flex flex-col  md:flex-row md:space-x-3 text-sm font-light">
           <li>
-            <a href="#" class="block py-2 pr-4 pl-3 text-accent bg-blue-700 rounded md:bg-transparent md:p-0 " aria-current="page">Home</a>
+            <a href="#" class="block px-3 py-1.5 text-accent rounded-lg hover:bg-gray-700" aria-current="page">Home</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pr-4 pl-3 text-white2 rounded md:bg-transparent  md:p-0 " aria-current="page">Home</a>
+            <a href="#" class="block px-3 py-1.5 text-accent rounded-lg hover:bg-gray-700" aria-current="page">Home</a>
           </li>
         </ul>
       </div>
