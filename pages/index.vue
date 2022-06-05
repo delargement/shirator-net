@@ -2,7 +2,7 @@
   <div class="">
     <main class="mt-10 mx-auto max-w-6xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
       <div>
-      <img src="itazuranekoanimated.png" alt="Shirator Place" class="mx-auto max-w-full object-scale-down w-0.2">
+      <img src="/metaballs.gif" alt="Shirator Place" class="mx-auto w-1/2">
 <!--        Placeholder image -->
       <div class="sm:text-center lg:text-left">
         <h1 class="text-4xl tracking-tight font-extrabold font-serif text-gray-300 sm:text-5xl md:text-6xl">

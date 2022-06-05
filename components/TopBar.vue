@@ -15,10 +15,10 @@
       <div class="hidden md:block md:w-auto" id="mobile-menu">
         <ul class="flex flex-col  md:flex-row md:space-x-3 text-sm font-light">
           <li>
-            <a href="#" class="block px-3 py-1.5 text-accent rounded-lg hover:bg-gray-700" aria-current="page">Home</a>
+            <a href="#" class="block px-3 py-1.5 text-accent rounded-lg hover:bg-gray-700" >Home</a>
           </li>
           <li>
-            <a href="#" class="block px-3 py-1.5 text-accent rounded-lg hover:bg-gray-700" aria-current="page">Home</a>
+            <NuxtLink to="/links" class="block px-3 py-1.5 text-accent rounded-lg hover:bg-gray-700" >Links</NuxtLink>
           </li>
         </ul>
       </div>
