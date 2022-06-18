@@ -1,43 +1,80 @@
 <template>
   <div class="">
-    <main class="mt-10 mx-auto max-w-6xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-      <div>
-      <img src="/metaballs.gif" alt="Shirator Place" class="mx-auto w-1/2">
-<!--        Placeholder image -->
-      <div class="sm:text-center lg:text-left">
-        <h1 class="text-4xl tracking-tight font-extrabold font-serif text-gray-300 sm:text-5xl md:text-6xl">
-          <span class="block xl:inline">This is the blog of</span>
-          <span class="block xl:inline text-accent">Shirator</span>
-        </h1>
-      </div>
-      <p class="mt-3 text-base text-gray-300 text-xl p-5 mx-auto max-w-4xl">
-        This is where I post blog posts and write-ups on whatever crosses my mind.
-      </p>
-      </div>
-
-      <hr class="border-accent mx-auto my-5 w-5/12 h-2">
-
-      <h1 class="text text-6xl text-gray-300 font-serif my-10">
-        Site Index
-      </h1>
+    <main class="mx-auto max-w-5xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-10">
 
       <div class="">
-        <div>
-        <h2 class="text-4xl text-accent text-bold ">Blog</h2>
-          <ul class="list-disc list-inside">
-
-          </ul>
+<!--        <img src="/metaballs.gif" alt="Shirator Place" class="mx-auto w-1/3 pt-0 mt-0">-->
+  <!--        Placeholder image -->
+        <div class="sm:text-center lg:text-left mt-15 mx-auto">
+          <h1 class="text-4xl tracking-tight font-bold font-serif text-gray-300 sm:text-5xl md:text-6xl">
+            <span class="block xl:inline">This is the site of</span>
+            <span class="block xl:inline text-accent">Shirator</span>
+          </h1>
         </div>
+        <hr class="border-accent mx-auto my-20 w-8/12 h-2 border-dashed">
+      </div>
+
+      <h1 class="text text-6xl text-gray-300 font-serif my-10">
+        Index
+      </h1>
+
+      <div class="grid grid-cols-4 py-6">
+        <h2 class="text-4xl text-accent font-semibold col-span-1 ">Blog</h2>
+        <ul class="list-disc list-inside col-span-3">
+          <BlogCard v-for="i in 3" :key="i"/>
+        </ul>
+      </div>
+
+      <div class="py-6">
+        <h2 class="text-4xl text-accent font-semibold col-span-1 ">Gallery</h2>
+        <ul class="list-disc list-inside col-span-3">
+          <BlogCard v-for="i in 1" :key="i"/>
+        </ul>
+      </div>
+
+      <div class="py-6">
+        <h2 class="text-4xl text-accent font-semibold col-span-1 ">Reading List</h2>
+        <ul class="list-disc list-inside col-span-3">
+          <BlogCard v-for="i in 1" :key="i"/>
+        </ul>
+      </div>
+
+      <div class="grid grid-cols-4 py-6">
+        <h2 class="text-4xl text-accent font-semibold col-span-1 ">Shirator Network</h2>
+        <ul class="list-disc list-inside col-span-3 grid grid-cols-3">
+          <AltSite v-for="site in network"
+                   :key="site.name"
+                   :description="site.description"
+                   :color="site.color"
+                   :name="site.name"
+                   class="col-span-1"
+          />
+        </ul>
       </div>
 
     </main>
   </div>
 </template>
 
+
 <script lang="ts">
 import Vue from 'vue'
+import BlogCard from "~/components/BlogCard.vue";
+import AltSite from "~/components/AltSite.vue";
 
 export default Vue.extend({
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components: {AltSite, BlogCard},
+  data() {
+    return {
+      network: [{
+        name: 'notes',
+        link: 'https://notes.shirator.net',
+        color: 'text-blue-200',
+        description: 'A collection of typeset academic notes.'
+      }]
+    }
+  }
+
 })
 </script>

@@ -12,13 +12,21 @@
           net
         </span>
       </a>
-      <div class="hidden md:block md:w-auto" id="mobile-menu">
-        <ul class="flex flex-col  md:flex-row md:space-x-3 text-sm font-light">
-          <li>
-            <a href="#" class="block px-3 py-1.5 text-accent rounded-lg hover:bg-gray-700" >Home</a>
+      <div class="" id="mobile-menu">
+        <ul class="flex flex-row md:space-x-3 text-sm font-light">
+          <li class="ml-0">
+            <NuxtLink to="/" class="block px-2 py-1.5 text-accent rounded-lg hover:bg-gray-700" >Home</NuxtLink>
+          </li>
+          <li class="ml-0">
+            <NuxtLink to="/" class="block px-2 py-1.5 text-accent rounded-lg hover:bg-gray-700" >
+              Blog</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/links" class="block px-3 py-1.5 text-accent rounded-lg hover:bg-gray-700" >Links</NuxtLink>
+            <NuxtLink to="/gallery" class="block px-2 py-1.5 mx-0 text-accent rounded-lg hover:bg-gray-700" >
+              Gallery</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink to="/links" class="block px-2 py-1.5 mx-0 text-accent rounded-lg hover:bg-gray-700" >Links</NuxtLink>
           </li>
         </ul>
       </div>
