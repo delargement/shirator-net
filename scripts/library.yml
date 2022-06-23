@@ -1,0 +1,73 @@
+- books:
+    - author: Aluffi
+      comment: Initially, I was reading Dummit and Foote which ended up turning me off
+        from algebra with how sterile its presentation is. But Aluffi's book hooked
+        me back in with its presentation which often motivates its results. Its gimmick
+        of sprinkling in category theory is pretty cool too.
+      cover: 'Algebra Chapter 0.jpg'
+      title: 'Algebra: Chapter 0'
+  subject: Algebra
+- books:
+    - author: Rudin
+      cover: Principles of Mathematical Analysis.jpg
+      title: Principles of Mathematical Analysis
+    - author: Kreyszig
+      cover: Functional Analysis.jpg
+      title: Functional Analysis
+    - author: Evans
+      cover: Partial Differential Equations.jpg
+      title: Partial Differential Equations
+  subject: Analysis
+- books:
+    - author: Munkres
+      cover: Topology.jpg
+      title: Topology
+    - author: Lee
+      cover: Introduction to Smooth Manifolds.jpg
+      title: Introduction to Smooth Manifolds
+    - author: Arnold
+      comment: Gives a neat geometric treatment of the theory of ODEs and dynamical
+        systems.
+      cover: Ordinary Differential Equations.jpg
+      title: Ordinary Differential Equations
+  subject: Geometry & Topology
+- books:
+    - author: Riley, Hobson & Bence
+      comment: I like this book a lot, teaches you a lot of the applied math that's
+        good to know or one would ever need to know at the undergrad level.
+      cover: Mathematical Methods for Physics and Engineers.jpg
+      title: Mathematical Methods for Physics and Engineers
+    - author: Arfken, Weber & Harris
+      comment: I use it as reference book, since I got a physical copy through illicit
+        means.
+      cover: Mathematical Methods for Physicists.jpg
+      title: Mathematical Methods for Physicists
+    - author: Shankar
+      cover: Principles of Quantum Mechanics.jpg
+      title: Principles of Quantum Mechanics
+    - author: Goldstein
+      cover: Classical Mechanics.jpg
+      title: Classical Mechanics
+  subject: Physics
+- books:
+    - author: Arnold
+      comment: I might read Arnold's other books too, I like his expository style.
+      cover: Mathematical Methods of Classical Mechanics.jpg
+      title: Mathematical Methods of Classical Mechanics
+    - author: Atiyah & Macdonald
+      cover: Introduction to Commutative Algebra.jpg
+      title: Introduction to Commutative Algebra
+    - author: Hartshorne
+      comment: One day
+      cover: Algebraic Geometry.jpg
+      title: Algebraic Geometry
+    - author: Lee
+      cover: Introduction to Riemannian Manifolds.jpg
+      title: Introduction to Riemannian Manifolds
+    - author: Misner, Wheeler & Thorne
+      cover: Gravitation.jpg
+      title: Gravitation
+    - author: Jackson
+      cover: Classical Electrodynamics.jpg
+      title: Classical Electrodynamics
+  subject: Plan to read

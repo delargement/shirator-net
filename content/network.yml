@@ -1,3 +1,6 @@
 - name: notes
   description: Collection of academic notes
   color: text-blue-200
+- name: nes
+  description: Collection of academic notes
+  color: text-blue-200
