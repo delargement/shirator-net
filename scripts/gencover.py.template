@@ -1,0 +1,49 @@
+import requests
+import yaml
+APIKEY = "googlebooksapikey"
+
+
+
+def fetchCover(title,author):
+    url = "https://www.googleapis.com/books/v1/volumes?q=intitle:"+title+"+inauthor:"+author+"&key="+APIKEY
+    r = requests.get(url)
+    data = r.json()
+    if data['totalItems'] == 0:
+        return None
+    return data['items'][0]['volumeInfo']['imageLinks']['thumbnail'] + "&&fife=w400"
+
+def downloadFile(link,directory,filename):
+    r = requests.get(link, stream=True)
+    with open(directory+filename, 'wb') as f:
+        for chunk in r.iter_content(chunk_size=1024):
+            if chunk:
+                f.write(chunk)
+                f.flush()
+
+def readYaml(file):
+  with open(file, 'r') as stream:
+    try:
+      data = yaml.safe_load(stream)
+    except yaml.YAMLError as exc:
+      print(exc)
+  return data
+def writeYaml(file,data):
+    with open(file, 'w') as outfile:
+        yaml.dump(data, outfile, default_flow_style=False)
+
+def main():
+  yml = readYaml("../content/library/_library.yml")
+  for subject in yml:
+    for book in subject['books']:
+      if 'cover' in book: continue
+      title = book['title'].replace(".","").replace(",","").replace("'","").replace("(","").replace(")","").replace("[","").replace("]","").replace("{","").replace("}","").replace("!","").replace("?","").replace(";","").replace(":","").replace("-","").replace("_","").replace("+","").replace("=","").replace("*","").replace("&","").replace("%","").replace("$","").replace("#","").replace("@","").replace("~","").replace("`","").replace("^","").replace("|","").replace("\"","").replace("/","").replace("\\","").replace("<","").replace(">","").replace(".","")
+      cover = fetchCover(title,book['author']).replace('edge=curl&','')
+      print(title)
+      print(cover)
+      downloadFile(cover, "../static/covers/", title+".jpg")
+      if cover != None:
+        book['cover'] = title+".jpg"
+  writeYaml("../content/library/library.yml",yml)
+
+main()
+#print(fetchCover("Algebra: chapter 0","aluffi"))
