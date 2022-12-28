@@ -1,27 +1,21 @@
 - books:
     - author: Riley, Hobson & Bence
-      comment: I like this book a lot, teaches you a lot of the applied math that's
-        good to know or one would ever need to know at the undergrad level.
       cover: Mathematical Methods for Physics and Engineers.jpg
       title: Mathematical Methods for Physics and Engineers
-    - author: Arfken, Weber & Harris
-      comment: I use it as reference book, since I got a physical copy through illicit
-        means.
-      cover: Mathematical Methods for Physicists.jpg
-      title: Mathematical Methods for Physicists
     - author: Shankar
       cover: Principles of Quantum Mechanics.jpg
       title: Principles of Quantum Mechanics
     - author: Goldstein
       cover: Classical Mechanics.jpg
       title: Classical Mechanics
+    - author: Arnold
+      title: Mathematical Methods of Classical Mechanics
+    - author: Da Silva
+      title: Symplectic Geometry
   subject: Physics
 - books:
     - author: Aluffi
-      comment: Initially, I was reading Dummit and Foote which ended up turning me off
-        from algebra with how sterile its presentation is. But Aluffi's book hooked
-        me back in with its presentation which often motivates its results. Its gimmick
-        of sprinkling in category theory is pretty cool too.
+      comment: Although it gets a lot of flak for its gimmick of infusing category theory into an undergrad algebra text, I think it is successful in making an algebra text that isn't as dry nor dense as D&F and some of the other common recommendations for introductory algebra texts. I, personally, read Aluffi as my first pass through algebra and used Lang's as a reference text when returning to a topic later on.
       cover: 'Algebra Chapter 0.jpg'
       title: 'Algebra: Chapter 0'
   subject: Algebra
@@ -48,26 +42,29 @@
         systems.
       cover: Ordinary Differential Equations.jpg
       title: Ordinary Differential Equations
+    - author: Hatcher
+      title: Algebraic Topology
+    - author: Miranda
+      title: Algebraic Curves and Riemann Surfaces
   subject: Topology & Geometry
-- books:
-    - author: Arnold
-      comment: I might read Arnold's other books too, I like his expository style.
-      cover: Mathematical Methods of Classical Mechanics.jpg
-      title: Mathematical Methods of Classical Mechanics
-    - author: Atiyah & Macdonald
-      cover: Introduction to Commutative Algebra.jpg
-      title: Introduction to Commutative Algebra
-    - author: Hartshorne
-      comment: One day
-      cover: Algebraic Geometry.jpg
-      title: Algebraic Geometry
-    - author: Lee
-      cover: Introduction to Riemannian Manifolds.jpg
-      title: Introduction to Riemannian Manifolds
-    - author: Misner, Wheeler & Thorne
-      cover: Gravitation.jpg
-      title: Gravitation
-    - author: Jackson
-      cover: Classical Electrodynamics.jpg
-      title: Classical Electrodynamics
-  subject: Plan to read
+#- books:
+#    - author: Arnold
+#      cover: Mathematical Methods of Classical Mechanics.jpg
+#      title: Mathematical Methods of Classical Mechanics
+#    - author: Atiyah & Macdonald
+#      cover: Introduction to Commutative Algebra.jpg
+#      title: Introduction to Commutative Algebra
+#    - author: Hartshorne
+#      comment: One day
+#      cover: Algebraic Geometry.jpg
+#      title: Algebraic Geometry
+#    - author: Lee
+#      cover: Introduction to Riemannian Manifolds.jpg
+#      title: Introduction to Riemannian Manifolds
+#    - author: Misner, Wheeler & Thorne
+#      cover: Gravitation.jpg
+#      title: Gravitation
+#    - author: Jackson
+#      cover: Classical Electrodynamics.jpg
+#      title: Classical Electrodynamics
+#  subject: Plan to read

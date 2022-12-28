@@ -17,19 +17,19 @@
           <li class="ml-0">
             <NuxtLink to="/" class="block px-2 py-1.5 text-accent rounded-lg hover:bg-gray-700" >Home</NuxtLink>
           </li>
-          <li class="ml-0">
-            <NuxtLink to="/" class="block px-2 py-1.5 text-accent rounded-lg hover:bg-gray-700" >
-              Blog</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="/gallery" class="block px-2 py-1.5 mx-0 text-accent rounded-lg hover:bg-gray-700" >
-              Gallery</NuxtLink>
-          </li>
+<!--          <li class="ml-0">-->
+<!--            <NuxtLink to="/" class="block px-2 py-1.5 text-accent rounded-lg hover:bg-gray-700" >-->
+<!--              Blog</NuxtLink>-->
+<!--          </li>-->
+<!--          <li>-->
+<!--            <NuxtLink to="/gallery" class="block px-2 py-1.5 mx-0 text-accent rounded-lg hover:bg-gray-700" >-->
+<!--              Gallery</NuxtLink>-->
+<!--          </li>-->
           <li>
             <NuxtLink to="/library" class="block px-2 py-1.5 mx-0 text-accent rounded-lg hover:bg-gray-700" >Library</NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/links" class="block px-2 py-1.5 mx-0 text-accent rounded-lg hover:bg-gray-700" >Links</NuxtLink>
+            <NuxtLink to="/links" class="block px-2 py-1.5 mx-0 text-accent rounded-lg hover:bg-gray-700" >Socials</NuxtLink>
           </li>
         </ul>
       </div>

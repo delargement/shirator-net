@@ -4,21 +4,26 @@
 
       <div>
         <h1 class="text text-6xl text-gray-300 font-serif my-10">
-          Reading List
+          Library
         </h1>
         <h3 class="text text-xl text-gray-300 text-accent my-10">
-          In chronological order of when I picked it up.
+          Books I've read or am currently reading.
         </h3>
       </div>
 
-      <div v-for="subject in library" class="py-0 grid grid-cols-5">
-        <h2 class="text-3xl text-accent font-semibold col-span-1">{{subject.subject}}</h2>
-        <ul class="list-disc list-inside col-span-4 grid grid-cols-4">
+      <div v-for="subject in library" class="py-0 grid grid-cols-4 ">
+
+        <hr class="border-accent mb-5 mt-2 h-2 border-dashed col-span-4"/>
+        <div>
+          <h2 class="text-3xl text-accent font-semibold col-span-1">{{subject.subject}}</h2>
+        </div>
+
+
+        <ul class="list-disc list-inside col-span-3 grid grid-cols-3">
           <book v-for="book in subject.books" :key="book.title"
-                :book="book"/>
+                :book="book" :class=" book.comment ? 'col-span-3' : 'col-span-1'"/>
         </ul>
       </div>
-
 
     </main>
   </div>
