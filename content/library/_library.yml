@@ -18,6 +18,10 @@
       comment: Although it gets a lot of flak for its gimmick of infusing category theory into an undergrad algebra text, I think it is successful in making an algebra text that isn't as dry nor dense as D&F and some of the other common recommendations for introductory algebra texts. I, personally, read Aluffi as my first pass through algebra and used Lang's as a reference text when returning to a topic later on.
       cover: 'Algebra Chapter 0.jpg'
       title: 'Algebra: Chapter 0'
+    - author: Atiyah & MacDonald
+      title: "Introduction to Commutative Algebra"
+    - author: Lang
+      title: Algebra
   subject: Algebra
 - books:
     - author: Rudin
